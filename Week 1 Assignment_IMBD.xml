@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imbd>
+  <movies>
+    <movie id="1">
+      <title>Original Sin</title>
+      <yearReleased>2001</yearReleased>
+      <director>Michael Cristofer</director>
+      <grossRevenue>$16,252,765</grossRevenue>
+    </movie>
+    <movie id="2">
+      <title>The Last Unicorn</title>
+      <yearReleased>1982</yearReleased>
+      <director>Jules Bass, Arthur Rankin Jr.</director>
+      <grossRevenue>$6,455,530</grossRevenue>
+    </movie>
+    <movie id="3">
+    <title>The Adventures of Milo and Otis</title>
+    <yearReleased>1986</yearReleased>
+    <director>Masanori Hata</director>
+    <grossRevenue>$13,245,219</grossRevenue>
+    <movie id="4">
+      <title>Carnosaurs</title>
+      <yearReleased>1993</yearReleased>
+      <director>Adam Simon, Darren Moloney</director>
+      <grossRevenue>$1,753,979</grossRevenue>
+    </movie>
+  </movies>
+  <actors>
+    <actor id="A">
+      <name>Adrien Brody</name>
+      <yearBorn>1973</yearBorn>
+      <gender>male</gender>
+      <debutFilm>The Boy Who Cried Bitch</debutFilm>
+    </actor>
+    <actor id="B">
+      <name>Jennifer Lawrence</name>
+      <yearBorn>1990</yearBorn>
+      <gender>female</gender>
+      <debutFilm>Company Town</debutFilm>
+    </actor>
+    <actor id="C">
+      <name>Audrey Hepburn</name>
+      <yearBorn>1929</yearBorn>
+      <gender>femail</gender>
+      <debutFilm>Sauce Tartare</debutFilm>
+    </actor>
+    <actor id="D">
+      <name>Daniel Day-Lewis</name>
+      <yearBorn>1957</yearBorn>
+      <gender>male</gender>
+      <debutFilm>Thank You, P.G. Wodehouse</debutFilm>
+    </actor>
+  </actors>
+</imbd>

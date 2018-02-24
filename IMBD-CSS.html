@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="UTF-8">
+    <title>IMBD Webpage</title>
+    <link rel="stylesheet" type="text/css" href="IMBD%20CSS.css">
+    <style>
+      a[href] {text-decoration-color: white}
+
+      #toptable {
+        width: 100%;
+        background-color: grey;
+        text-align: center;
+        margin-outside: 0px;
+        width: available;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div type="banner">
+      <!-- Black Panther Hero Image--->
+    </div>
+    <!--top banner-->
+    <table id="toptable">
+      <tr>
+        <td>
+        <a
+            href="http://www.imbd.com/">
+          <img height="60px" width="120px" src="data:image/jpeg;base64,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"
+        </a>
+        </td>
+        <!--search-->
+
+        <form>
+        <td><input id="search term" width="300px" type = "text" placeholder = "Find Movies, TV shows, Celebrities and more...">
+        </td>
+          <td>
+              <select id ="filter">
+                <option value="All">All</option>
+                <option value="Title">Title</option>
+                <option value="TV Episodes">TV Episodes</option>
+                <option value="Names">Names</option>
+                <option value="Companies">Companies</option>
+                <option value="Keywords">Keywords</option>
+                <option value="Advanced Search">Advanced Search >></option>
+              </select>
+          </td>
+         </td>
+          <td>
+        <input type = "button" value = "Search">
+          </td>
+       </form>
+        <!--IMBd Links-->
+          <td>
+        <a href="https://pro.imdb.com/signup/index.html?rf=cons_nb_hm&ref_=cons_nb_hm">ImbdPro</a>
+      </td>
+        <td>
+          <a href="https://help.imdb.com/imdb?ref_=cons_nb_hlp">Help</a>
+        </td>
+        <!--Social Links-->
+        <td>
+          <a href="http://www.facebook.com/">
+          <img class="socialicon" src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/facebook_circle-512.png">
+          </a>
+        </td>
+        <td>
+          <a href="http://www.twitter.com/">
+            <img class="socialicon" src="http://goinkscape.com/wp-content/uploads/2015/07/twitter-logo-final.png">
+          </a>
+        </td>
+        <td>
+          <a href="http://www.linkedin.com/">
+            <img class=socialicon src="https://i1.wp.com/musicentrepreneurhq.com/images/linkedin-round.png?resize=256%2C256">
+          </a>
+        </td>
+      </tr>
+          <!--browse--->
+       <tr>
+         <td>
+              <div class="dropdown">
+                <span>
+                  <a href="#">Movies, </a>
+                  <a href="#">TV</a>
+                  <br>
+                  <a href="#">& Showtimes</a>
+                </span>
+                 <div class="dropdown-content">
+                   <h4>Movies</h4>
+                   <a href="#">In Theaters</a><br>
+                   <a href="#">Showtimes & Tickets</a><br>
+                   <a href="#">Latest Trailers</a><br>
+                   <a href="#">Coming Soon</a><br>
+                   <a href="#">Release Calendar</a><br>
+                   <a href="#">Top Rated Movies</a><br>
+                   <a href="#">Top Rated Indian Movies</a><br>
+                   <a href="#">Most Popular Movies</a><br>
+                   <h4>Charts & Trends</h4>
+                   <a href="#">Box Office</a></<br>
+                   <a href="#">Oscar Winners</a><br>
+                   <a href="#">Most Popular by Genre</a><br>
+                   <h4>TV & Video</h4>
+                   <a href="#">IMBd TV</a><br>
+                   <a href="#">Top Rated TV Shows</a><br>
+                   <a href="#">Top Rated TV Shows</a><br>
+                   <a href="#">Most Popular TV Shows</a><br>
+                   <a href="#">DVD & Blu-Ray</a><br>
+                   <h4>Special Features</a></h4>
+                   <a href="#">Amazon Originals</a><br>
+                   <a href="#">Streaming</a><br>
+                   <a href="#">Star Wars</a><br>
+                   <a href="#">Superheroes</a><br>
+                   <a href="#">"The IMBd Show"</a>
+                </div>
+            </td>
+            <td>
+
+          <!--Browse2-->
+              <div class="dropdown">
+                <span>
+            <a href="#">Celebs, </a>
+            <a href="#">Events</a>
+              <br>
+            <a href="#">& Photos</a>
+                </span>
+                <div class="dropdown-content">
+          <!--Hover dropdown for Celebs, Events & Photos--->
+              <h4>Celebs</h4>
+              <a href="#">Born Today</a><br>
+              <a href="#">Celebrity News</a><br>
+                  <a href="#">Most Popular Celebs</a><br>
+              <h4>Photos</h4><br>
+              <a href="#">Latest Stills</a><br>
+              <a href="#">Latest Posters</a><br>
+              <a href="#">Photos We Love</a><br>
+              <h4>Events</h4>
+              <a href="#">Awards Center</a><br>
+              <a href="#">Festivals Center</a><br>
+              <a href="#">Oscars</a><br>
+              <a href="#">Golden Globes</a><br>
+              <a href="#">Sundance</a><br>
+              <a href="#">Cannes</a><br>
+              <a href="#">Comic-Con</a><br>
+              <a href="#">Emmy Awards</a><br>
+              <a href="#">Venice Film Festival</a><br>
+              <a href="#">Toronto Film Festival</a><br>
+              <a href="#">Tribeca</a><br>
+              <a href="#">All Events</a><br>
+                </div>
+              </td>
+            <td>
+          <!--Browse3-->
+              <div class="dropdown">
+                <span>
+            <a href="#">News &</a>
+              <br>
+            <a href="#">Community</a>
+              </span>
+            <!-- Hover dropdown list for News & Community--->
+                <div class="dropdown-content">
+                <h4>News</h4>
+                <a href="#">Top News</a><br>
+                <a href="#">Movie News</a><br>
+                <a href="#">Celebrity News</a><br>
+               <a href="#">Indie News</a><br>
+               <h4>Community</h4>
+                <a href="#">Contributor Zone</a><br>
+                <a href="#">Polls</a><br>
+               <h4>Latest Headlines</h4>
+               <a href="#">Article 1</a><br>
+               date added
+               <a href="#">Article 2</a><br>
+               date added
+               <a href="#">Article 3</a><br>
+               date added
+              </div>
+              </div>
+            </td>
+            <td>
+          <!--Browse4-->
+            <a id="watchlist" href="#">Watchlist</a>
+
+            </td>
+            <td>
+        <!--other sign on options-->
+          <a href="#">
+            <img height="90" width="180" src="http://topscripts.in/wp-content/uploads/2017/12/facebook.png">
+          </a>
+            </td>
+        <td>
+          <a href="#">Other Sign in options</a>
+            </td>
+       </tr>
+
+      <br>
+      <div>
+        ADVERTISEMENT
+      </div>
+    <!--ads
+ <div class="sideBarAd">
+   Sidebar Add 1
+ </div>
+  <div class="sideBarAd">
+   Sidebar Add 1
+ </div>
+ --->
+      <br>
+       <menu>
+        <a href="#">FULL CAST AND CREW</a> |
+        <a href="#">TRIVIA</a> |
+        <a href="#">USER REVIEWS</a> |
+        <a href="#">IMPDPro</a> |
+        <a href="#">MORE</a>  |
+         <a href="#">SHARE</a>
+      <h1>
+        <a href="#">+</a>
+        Ferris Bueller's Day          <a style="font-size: medium" href="#">7.8/10 |</a><a style="font-size: medium" href="#">   Rate This</a>
+      <br>
+      Off (1986)
+  </h1>
+         <p>
+           PG-13 | 1h 43min | <a href="#">Comedy</a> |<a href="#"> 11 June 1986 (USA)</a>
+        </p>
+       </menu>
+    <section>
+        <a
+          href="http://www.imdb.com/video/imdb/vi3037705241?playlistId=tt0091042&ref_=tt_ov_vi">
+          <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMDA0NjZhZWUtNmI2NC00MmFjLTgwZDYtYzVjZmNhMDVmOTBkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg">
+        </a>
+        <a
+        href="http://www.imdb.com/video/imdb/vi3037705241?playlistId=tt0091042&ref_=tt_ov_vi">
+        <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BZjVlYzI2ZjItNTY5ZC00ZDc0LWFmZmMtZGIyYTQ0ZjgzM2RkXkEyXkFqcGdeQXVyNzU1NzE3NTg@._V1_CR0,29,304,171_AL_UX477_CR0,0,477,268_AL_.jpg">
+        </a>
+    </section>
+  </body>
+</html>
