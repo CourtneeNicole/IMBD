@@ -3,8 +3,65 @@
   <head>
     <meta charset="UTF-8">
     <title>Forms</title>
+    <link rel="stylesheet" href="Forms.css">
   </head>
   <body>
-    
+    <div>
+    <h4>New User Registration</h4>
+    <form id="registration">
+      <label for="firstName">First Name</label>
+      <input id="firstName" type="text" required="required">
+      <label for="lastName">Last Name</label>
+      <input id="lastName" type="text" required="required"><br>
+      <label for="email">Email</label>
+      <input id="email" type="email" required="required">
+      <label for="phoneNumber">Phone</label>
+      <input id="phoneNumber" type="tel"><br>
+      <label for="age">Age</label>
+      <input id="age" type="number">
+      <label for="username">Username</label>
+      <input id="username" type="text" min="7" required="required"><br>
+      <label for="password">Password</label>
+    <input id="password" type="password" required="required" min="8">
+    <label for="confirmPassword">Confirm Password</label>
+    <input id="confirmPassword" type="password" required="required" min="8">
+      <br><br>
+      <input id="submit" type="button" value="Submit"><input id="reset" type="reset">
+    </form>
+    </div>
+    <div>
+      <h4>Forgot your password?</h4>
+      <p>
+        Enter your information below to reset your password.
+      </p>
+      <Form id="resetPassword">
+        <label for="resetEmail">Email</label>
+        <input id="resetEmail" type="email" required="required">
+        <input type="button" value="Send Reset Email">
+      </Form>
+    </div>
+    <div>
+      <h4>Login</h4>
+      <Form id="login">
+        <label for="loginUsername">Username</label>
+        <input id="loginUsername" type="text" required="required" min="7"><br>
+        <label for="loginPassword">Password</label>
+        <input id="loginPassword" type="password" required="required" min="7"><br>
+        <input type="button" value="Login">
+      </Form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
   </body>
 </html>

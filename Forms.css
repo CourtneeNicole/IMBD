@@ -1,0 +1,14 @@
+label{
+  width: 150px;
+  display: inline-block;
+  text-align: left;
+}
+
+input{
+  width: 200px;
+  display: inline-block;
+}
+button{
+  width: 75px;
+  box-shadow: black;
+}
